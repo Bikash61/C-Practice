@@ -10,7 +10,7 @@ int main()
     cin >> b;
     cout << "Enter the Third side of the traingle" << endl;
     cin >> c;
-    if ((a + b >= c) && (b + c >= a) && (c + a) >= b)
+    if (((a + b) > c) && ((b + c) > a) && ((c + a) > b))
     {
         cout << "It can be the side of the traingle" << endl;
     }
