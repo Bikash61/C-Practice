@@ -15,7 +15,7 @@ int main()
     cin >> c;
     if (a > b and a >c)
     {
-        cout << a << " is greater"
+        cout << a << " is greater";
     }
     else if (b > c and b>a)
     {
