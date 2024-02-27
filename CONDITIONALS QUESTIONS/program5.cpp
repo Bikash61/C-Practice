@@ -22,10 +22,10 @@ int main (){
     m2 = (y3-y2)/(x3-x2);
 
     if (m1 == m2){
-        cout << "It is in straight line";
+        cout << "Hey ! This line is a staright line";
     }
     else{
-        cout << "It is not in straught line";
+        cout << "Well! Not a staright bro ";
     }
 
     return 0;
