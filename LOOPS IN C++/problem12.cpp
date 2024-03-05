@@ -9,4 +9,5 @@ int main(){
        cout << ((2*i)-1)<<endl;
 
     }
+    return 0; 
 }

@@ -20,4 +20,6 @@ int main(){
         cout<<"It is not a composite number";
     }
 
+    return 0;
+
 }
