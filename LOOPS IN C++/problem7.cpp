@@ -1,3 +1,4 @@
+//WAP to find the wheather the number is compossite or not 
 #include <iostream>
 using namespace std;
 int main(){
