@@ -5,7 +5,7 @@ int main(){
     int n , count =0, i ;
     cout << "Enter the number "<<endl;
     cin >> n;
-    i = 1;
+    i = 2;
     while ( i <=n){
         if ( n %i==0){
             count ++;
