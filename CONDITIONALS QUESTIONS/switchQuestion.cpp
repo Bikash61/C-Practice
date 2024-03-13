@@ -1,43 +1,26 @@
-// Write a program to print the month of the year using switch statement 
-
 #include <iostream>
 using namespace std;
 
 int main(){
-    int month ; 
-    cout << "Enter the month from 1 to 6 : ";
+
+    int month; 
+
+    cout << "Enter the number of the month you want"<<endl;
     cin>>month;
 
+    switch(month){
 
-    switch (month){
-        case 1 :
-        cout << "January "<<endl;
+        case 1 : 
+        cout << "January"<<endl;
         break;
 
-        case 2 : 
-        cout << "Feburary "<<endl; 
-        break;
-
-        case 3 : 
-        cout << "March"<<endl;
-        break;
-
-        case 4:
-        cout << "April"<<endl;
-        break; 
-
-        case 5:
-        cout<< "May"<<endl;
-        break;
-
-        case 6:
-        cout << "June"<<endl;
-        break;
+        case 2:
+        cout << "Feb"<<endl;
+        break ;
 
         default:
-        cout << "Invalid Month"<<endl;
+        cout << "Invalid ";
         break;
-    }
 
-    return 0;
+    }
 }
