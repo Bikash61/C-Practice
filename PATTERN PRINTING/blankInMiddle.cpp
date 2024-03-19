@@ -2,12 +2,12 @@
 using namespace std;
 
 int main(){
-    int r , c;
+    int r,c;
     cin>> r>>c;
 
-    for(int i = 0; i <=r-1; i++){
-        for(int j = 0; j<=c-1; j++){
-           if(i ==0|| i ==r-1 || j ==0 || j ==c-1){
+    for(int i = 0; i <c; i++){
+        for(int j = 0; j<r; j++){
+           if(i ==0|| i ==c-1 || j ==0 || j ==r-1){
             cout<<"*";
            }else{
             cout << " ";
