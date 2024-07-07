@@ -14,13 +14,37 @@ int main(){
 
 
     cout<<"Everything is fine"<<endl;
-
+    //Initializing the array
     int secondArray[3] = {1,3,4};
 
     cout<<"The value of 2Nd index is "<<secondArray[2]<<endl;
 
     int thirdArray[8] ={2,4,5,6,4,3};
     cout<<"The value of 7th index is "<<thirdArray[7]<<endl;
+    //Printing the Array
+    int n = 8;
+    for (int i = 0; i<n; i++){
+        cout<<thirdArray[i]<<" ";
+
+    }
+    cout<<endl;
+
+    //Initializing every location 0 in an Array
+    cout<<"Printing Array with 0 in every location"<<endl;
+    int fourthArray[10] = {0};
+    int m = 10;
+    for (int i =0 ; i<10; i++){
+        cout<<fourthArray[i]<<" ";
+    }
+
+    //Initilizating every location with 1 in an Array is not possible with below line
+    cout<<endl<<"Printing Array with 1 in every location"<<endl;
+    int fifthArray[10] = {1};
+    int a = 10;
+    for (int i = 0; i<a; i++){
+        cout<<fifthArray[i]<<" ";
+    }
+
 
 
 
